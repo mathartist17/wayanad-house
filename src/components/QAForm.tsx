@@ -11,7 +11,7 @@ type FAQItem = {
 const faqs: FAQItem[] = [
   {
     question: "Who is eligible to vote in the house elections?",
-    answer: "All active students who are officially assigned to Wayanad House in the IIT Madras BS in Data Science and Applications degree program are eligible to cast their votes.",
+    answer: "All active students who are officially assigned to Wayanad House in the IIT Madras BS degree program are eligible to cast their votes.",
   },
   {
     question: "How can I reach Girish on Google Chat?",
