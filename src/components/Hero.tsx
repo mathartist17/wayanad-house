@@ -35,10 +35,10 @@ export default function Hero() {
           </div>
           <div className={`${styles.actions} animate-fade-in delay-3`}>
             <a href="#manifesto" className="btn btn-primary">
-              Read Planned Actions
+              View Manifesto
             </a>
-            <a href="#qa" className="btn btn-secondary">
-              Share Your Thoughts
+            <a href="/campaign_manifesto.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+              📥 Download PDF
             </a>
           </div>
         </div>
