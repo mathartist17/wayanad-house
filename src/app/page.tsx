@@ -86,6 +86,59 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Track Record Section */}
+      <section id="track-record" className={styles.trackSection}>
+        <div className={`${styles.container} container`}>
+          <div className={styles.trackHeader}>
+            <span className={styles.sectionBadge}>LAST TERM CONTRIBUTIONS</span>
+            <h2 className={styles.title}>
+              What I've <span className="glow-text">Done</span> for the House
+            </h2>
+            <p className={styles.trackSubtitle}>
+              Actions speak louder than promises. Here is what I contributed to Wayanad House last term.
+            </p>
+          </div>
+
+          <div className={styles.trackGrid}>
+            <div className={`${styles.trackCard} glass`}>
+              <span className={styles.trackIcon}>📍</span>
+              <h4>Regional Coordinator</h4>
+              <p>Served as the Regional Coordinator for the Chennai region, helping organize local study meetups and coordination.</p>
+            </div>
+
+            <div className={`${styles.trackCard} glass`}>
+              <span className={styles.trackIcon}>📐</span>
+              <h4>Maths 2 & Stats 2 Sessions</h4>
+              <p>Took learning sessions for Maths 2 and Stats 2 Foundation courses to help peers understand key concepts.</p>
+            </div>
+
+            <div className={`${styles.trackCard} glass`}>
+              <span className={styles.trackIcon}>🐍</span>
+              <h4>Python OPPE & Buddy</h4>
+              <p>Conducted sessions for Python OPPE preparation and also served as a buddy in the Python course.</p>
+            </div>
+
+            <div className={`${styles.trackCard} glass`}>
+              <span className={styles.trackIcon}>🌐</span>
+              <h4>Flask Sessions</h4>
+              <p>Organised and led Flask web development sessions to help house members explore backend development.</p>
+            </div>
+
+            <div className={`${styles.trackCard} glass`}>
+              <span className={styles.trackIcon}>🏆</span>
+              <h4>Paradox Python Challenge</h4>
+              <p>Won second place in the Python coding challenge during Paradox, representing Wayanad House.</p>
+            </div>
+
+            <div className={`${styles.trackCard} glass`}>
+              <span className={styles.trackIcon}>📊</span>
+              <h4>Strong Academic Standing</h4>
+              <p>Maintaining a 10 CGPA, which helps me guide peers effectively across foundational and diploma courses.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Vision Pillars */}
       <Vision />
 

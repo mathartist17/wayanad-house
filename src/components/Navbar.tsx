@@ -48,6 +48,7 @@ export default function Navbar() {
         <div className={`${styles.navLinks} ${isOpen ? styles.navLinksActive : ""}`}>
           <a href="#home" onClick={closeMenu} className={styles.link}>Home</a>
           <a href="#about" onClick={closeMenu} className={styles.link}>About</a>
+          <a href="#track-record" onClick={closeMenu} className={styles.link}>Track Record</a>
           <a href="#vision" onClick={closeMenu} className={styles.link}>Vision</a>
           <a href="#manifesto" onClick={closeMenu} className={styles.link}>Manifesto</a>
           <a href="#qa" onClick={closeMenu} className={styles.link}>Connect</a>
