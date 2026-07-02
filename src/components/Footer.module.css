@@ -1,0 +1,170 @@
+.footer {
+  background: var(--bg-deep);
+  border-top: 1px solid var(--border-muted);
+  padding: 80px 0 40px 0;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.topSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 768px) {
+  .topSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .topSection {
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+  }
+}
+
+.brandCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.dot {
+  color: var(--primary);
+  text-shadow: 0 0 10px rgba(0, 242, 254, 0.6);
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 0.5rem;
+  margin-left: 0.25rem;
+}
+
+.brandDesc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+.linksCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.linksCol h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.linksList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.linksList a {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.linksList a:hover {
+  color: var(--primary);
+  padding-left: 4px;
+}
+
+.ctaCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ctaCol h4 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.ctaDesc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.voteBox {
+  background: rgba(0, 242, 254, 0.04);
+  border: 1px solid var(--border-glow);
+  padding: 1.25rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  box-shadow: 0 0 20px rgba(0, 242, 254, 0.05);
+}
+
+.voteText {
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.candidateName {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 0 30px 0;
+  }
+  .container {
+    gap: 2.5rem;
+  }
+}
