@@ -19,7 +19,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "What is the priority for the campaign volunteers?",
-    answer: "We will establish a small group of volunteers to address queries from members promptly. This ensures queries are answered quickly without creating excessive group noise.",
+    answer: "We will establish a small group of volunteers to address queries from members, and every query will be resolved within a day. This keeps responses quick without creating excessive group noise.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function QAForm() {
             <span className={styles.sectionBadge}>HAVE QUESTIONS?</span>
             <h2 className={styles.title}>Frequently Asked <span className="glow-text">FAQs</span></h2>
             <p className={styles.subtitle}>
-              Quick answers about communication channels and volunteering. You can reach out to me anytime on <strong>Google Chat</strong> and I'll get back to you as soon as possible.
+              Quick answers about communication channels and volunteering. You can reach out to me anytime on <strong>Google Chat</strong> and I'll get back to you as soon as possible, with query support resolved within a day.
             </p>
 
             <div className={styles.faqList}>

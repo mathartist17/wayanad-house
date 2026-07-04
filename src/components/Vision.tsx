@@ -9,12 +9,12 @@ const visions = [
   {
     icon: "🤝",
     title: "2. Query Support Volunteers",
-    description: "We will bring together a small group of volunteers to quickly answer member queries, making sure questions get addressed fast. We will also compile step-by-step guides for processes like SCTs and lab assignments.",
+    description: "We will bring together a small group of volunteers to answer member queries, making sure every query is resolved within a day. We will also compile step-by-step guides for processes like SCTs and lab assignments.",
   },
   {
     icon: "🌐",
     title: "3. Maintaining the House Site",
-    description: "I will ensure the house website is properly maintained and all information is shared in one place. We will track hackathons and DSA stats, and highlight members' wins while minimizing overall group chat noise.",
+    description: "I will ensure the house website is properly maintained and all information is shared in one place. Official internship details will also be updated on the house website. We will track hackathons and DSA stats, and highlight members' wins while minimizing overall group chat noise.",
   },
 ];
 

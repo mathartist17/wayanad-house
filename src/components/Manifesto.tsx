@@ -30,16 +30,17 @@ const manifestoAgendas: ManifestoAgendas = {
       points: [
         "Ensuring all resources, tools, and guides are organized and kept up-to-date.",
         "Providing an easy interface for any student in the house to submit links or notes.",
-        "Creating a single, reliable point of reference for all announcements."
+        "Creating a single, reliable point of reference for all announcements.",
+        "Carrying forward the online game initiative started by the past UHC council."
       ]
     }
   ],
   support: [
     {
       title: "Query Support Volunteers",
-      description: "Gathering a group of volunteers to quickly answer questions from house members.",
+      description: "Gathering a group of volunteers to answer questions from house members, with every query resolved within a day.",
       points: [
-        "Structuring a rotational volunteer group to monitor and address queries from students.",
+        "Structuring a rotational volunteer group to monitor and address queries from students within one day.",
         "Making sure students get answers to urgent queries quickly without having to wait.",
         "Building a small database of common issues (registration, fee timelines, courses) to reply faster."
       ]
@@ -55,7 +56,7 @@ const manifestoAgendas: ManifestoAgendas = {
     },
     {
       title: "Open Contributions for All",
-      description: "Letting every member share their knowledge on the website.",
+      description: "Letting every member share their knowledge on the website, while official internship details are updated there as well.",
       points: [
         "A clear contribution model allowing any member to write or update guides on the house site.",
         "Crediting contributors on the website for their help.",
@@ -121,7 +122,7 @@ export default function Manifesto() {
             className={`${styles.tabBtn} ${activeTab === "support" ? styles.activeTab : ""}`}
             onClick={() => setActiveTab("support")}
           >
-            🙋 Query Volunteers & Guides
+            🙋 Query Support & Guides
           </button>
           <button
             className={`${styles.tabBtn} ${activeTab === "asyncwork" ? styles.activeTab : ""}`}

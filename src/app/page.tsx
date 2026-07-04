@@ -31,7 +31,7 @@ export default function Home() {
                 Because of these real constraints, I am not going to make grand or unrealistic commitments. Instead, my approach will focus entirely on structured, asynchronous work. I want to minimize unnecessary noise in group chats and ensure that the right information gets shared with the right people at the right time.
               </p>
               <p className={styles.desc}>
-                To make this work, I will commit to keeping our house website properly maintained so that info is always accessible. I also plan to form a small group of volunteers who can step up to address queries from house members quickly, making sure no student gets stuck waiting for answers.
+                To make this work, I will commit to keeping our house website properly maintained so that info is always accessible. Official internship details will be updated on the house website. I also plan to form a small group of volunteers who can step up to address queries from house members quickly, making sure no student gets stuck waiting for answers.
               </p>
               
               <div className={styles.valuesList}>
@@ -74,7 +74,7 @@ export default function Home() {
                   </div>
                   <div className={styles.hItem}>
                     <span className={styles.hDot}>●</span>
-                    <p><strong>Query Volunteers:</strong> A small group dedicated to helping members get quick answers.</p>
+                    <p><strong>Query Volunteers:</strong> A small group dedicated to helping members get answers within a day.</p>
                   </div>
                 </div>
                 <div className={styles.ctaWrapper}>
